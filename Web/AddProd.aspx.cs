@@ -19,17 +19,19 @@ namespace HHmedic.Sdk.Server.Demo.Web
             {
                 //提交数据
                 string _phoneNum = Request["phoneNum"];
+                string _imei = Request["imei"];
                 string _pid = Request["pid"];
-                Family.Entity.Product _product = new Product()
+                Product _product = new Product()
                 {
                     PhoneNum = _phoneNum,
+                    Imei = _imei,
                     Pid = int.Parse(_pid)
                 };
                 AddProduct(_product);
             }
         }
 
-        private void AddProduct(Family.Entity.Product Product)
+        private void AddProduct(Product Product)
         {
             ProductRequest _productRequest = new ProductRequest();
             ServerResponse _serverResponse = _productRequest.AddProduct(Product);

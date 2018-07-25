@@ -27,8 +27,8 @@ namespace HHmedic.Sdk.Server.Demo.Web
                 {
                     Name = _name,
                     PhoneNum = _phoneNum,
-                    Sex = "男" == _sex ? Family.Entity.User.SexEnum.男 : Family.Entity.User.SexEnum.女,
-                    Birthday = DateTime.Parse(_birthday),
+                    Sex = _sex,
+                    Birthday = DatetimeUtil.GetUnixTimeStamp(_birthday),
                     UserId = _userId
                 };
                 RegisterUser(_user);

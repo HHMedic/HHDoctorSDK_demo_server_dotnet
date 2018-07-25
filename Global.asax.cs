@@ -16,7 +16,8 @@ namespace HHmedic.Sdk.Server.Demo
             //注册页面路由
             RegRouters();
             //注册SDK
-            SdkProfile.Initialize(-1, "AppId", "AppSecret", SdkProfile.ProfileTypeEnum.TEST);
+            //SdkProfile.Initialize(-1, "AppId", "AppSecret", SdkProfile.ProfileTypeEnum.TEST);
+            SdkProfile.Initialize(3009, "3g8FOx82Fs8vgNboYYck", "Bck3bOeR5rSJ", SdkProfile.ProfileTypeEnum.TEST);
         }
 
         protected void Session_Start(object sender, EventArgs e)
@@ -53,6 +54,8 @@ namespace HHmedic.Sdk.Server.Demo
         {
             RouteTable.Routes.MapPageRoute("Index", "", "~/Web/Default.aspx");
             RouteTable.Routes.MapPageRoute("RegUser", "user/reg", "~/Web/RegUser.aspx");
+            RouteTable.Routes.MapPageRoute("AddMember", "user/addmember", "~/Web/AddMember.aspx");
+            RouteTable.Routes.MapPageRoute("WxACode", "user/wxacode", "~/Web/GetUserWxAcode.aspx");
             RouteTable.Routes.MapPageRoute("AddProd", "product/add", "~/Web/AddProd.aspx");
             RouteTable.Routes.MapPageRoute("SyncData", "data/sync", "~/Web/SyncData.aspx");
         }

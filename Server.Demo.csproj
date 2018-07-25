@@ -39,10 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HHmedic.Sdk.Server.Core">
+    <Reference Include="HHmedic.Sdk.Server.Core, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Release\HHmedic.Sdk.Server.Core.dll</HintPath>
     </Reference>
-    <Reference Include="HHmedic.Sdk.Server.Family">
+    <Reference Include="HHmedic.Sdk.Server.Family, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Release\HHmedic.Sdk.Server.Family.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -81,14 +83,23 @@
     <Content Include="Vendor\jQuery\3.2.1\jquery.min.js" />
     <Content Include="Vendor\weui\1.1.2\weui.css" />
     <Content Include="Vendor\weui\1.1.2\weui.example.css" />
+    <Content Include="Web\AddMember.aspx" />
     <Content Include="Web\AddProd.aspx" />
     <Content Include="Web\Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="Web\GetUserWxAcode.aspx" />
     <Content Include="Web\RegUser.aspx" />
     <Content Include="Web\SyncData.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Web\AddMember.aspx.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AddMember.aspx.designer.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Web\AddProd.aspx.cs">
       <DependentUpon>AddProd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -107,6 +118,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\GetUserWxAcode.aspx.cs">
+      <DependentUpon>GetUserWxAcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GetUserWxAcode.aspx.designer.cs">
+      <DependentUpon>GetUserWxAcode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Web\RegUser.aspx.cs">
       <DependentUpon>RegUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

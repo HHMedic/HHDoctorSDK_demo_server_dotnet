@@ -34,6 +34,20 @@
                     <div class="weui-cell__ft">
                     </div>
                 </a>
+                <a class="weui-cell weui-cell_access" href="./user/addmember">
+                    <div class="weui-cell__bd">
+                        <p>添加家庭成员</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+                <a class="weui-cell weui-cell_access" href="./user/wxacode">
+                    <div class="weui-cell__bd">
+                        <p>获取小程序码</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
             </div>
 
             <div class="weui-cells__title">套餐产品</div>
