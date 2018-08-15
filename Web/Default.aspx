@@ -34,6 +34,13 @@
                     <div class="weui-cell__ft">
                     </div>
                 </a>
+                <a class="weui-cell weui-cell_access" href="./user/userinfo">
+                    <div class="weui-cell__bd">
+                        <p>获取用户信息</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
                 <a class="weui-cell weui-cell_access" href="./user/addmember">
                     <div class="weui-cell__bd">
                         <p>添加家庭成员</p>

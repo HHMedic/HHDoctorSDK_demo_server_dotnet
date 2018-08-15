@@ -24,14 +24,6 @@
         <div class="page__bd">
             <div class="weui-cells__title">用户及产品套餐信息</div>
             <div class="weui-cells weui-cells_form">
-                <%--<div class="weui-cell">
-                    <div class="weui-cell__hd">
-                        <label class="weui-label">手机号</label>
-                    </div>
-                    <div class="weui-cell__bd">
-                        <input id="phoneNum" class="weui-input" type="tel" placeholder="请输入手机号" />
-                    </div>
-                </div>--%>
                 <div class="weui-cell weui-cell_select weui-cell_select-before">
                     <div class="weui-cell__hd">
                         <select id="phoneOrImei" class="weui-select" name="phoneOrImei">

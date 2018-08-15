@@ -55,6 +55,7 @@ namespace HHmedic.Sdk.Server.Demo
             RouteTable.Routes.MapPageRoute("RegUser", "user/reg", "~/Web/RegUser.aspx");
             RouteTable.Routes.MapPageRoute("AddMember", "user/addmember", "~/Web/AddMember.aspx");
             RouteTable.Routes.MapPageRoute("WxACode", "user/wxacode", "~/Web/GetUserWxAcode.aspx");
+            RouteTable.Routes.MapPageRoute("UserInfo", "user/userinfo", "~/Web/GetUserInfo.aspx");
             RouteTable.Routes.MapPageRoute("AddProd", "product/add", "~/Web/AddProd.aspx");
             RouteTable.Routes.MapPageRoute("SyncData", "data/sync", "~/Web/SyncData.aspx");
         }

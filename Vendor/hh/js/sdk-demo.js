@@ -15,7 +15,6 @@ function initMsg() {
 
 //点击"知道了",隐藏消息窗口
 $('body').on('touchstart click', '.weui-dialog__btn', function () {
-    console.log(1111);
     $(this).parents('.js_dialog').fadeOut(200);
     return false;
 });

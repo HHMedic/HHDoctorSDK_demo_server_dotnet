@@ -88,6 +88,7 @@
     <Content Include="Web\Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="Web\GetUserInfo.aspx" />
     <Content Include="Web\GetUserWxAcode.aspx" />
     <Content Include="Web\RegUser.aspx" />
     <Content Include="Web\SyncData.aspx" />
@@ -118,6 +119,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\GetUserInfo.aspx.cs">
+      <DependentUpon>GetUserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\GetUserInfo.aspx.designer.cs">
+      <DependentUpon>GetUserInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Web\GetUserWxAcode.aspx.cs">
       <DependentUpon>GetUserWxAcode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
