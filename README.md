@@ -12,3 +12,6 @@
 * 修改Global.asax中的appId、appKey和appSecret
 * F5开始调试
 * 在浏览器中访问
+
+## 完整对接流程
+请参考：https://github.com/HHMedic/HHDoctorSDK_demo_server_java/blob/master/HOWTODO.md
