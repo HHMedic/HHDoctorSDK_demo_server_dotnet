@@ -6,10 +6,10 @@
 
 ## 如何使用
 * 克隆当前项目到本地目录
-* 下载SDK：http://imgfamily.hh-medic.com/sdk/dotnet/HHmedic.Sdk.Server.Dotnet.1.0.4.zip
+* 下载SDK：http://imgfamily.hh-medic.com/sdk/dotnet/HHmedic.Sdk.Server.Dotnet.1.0.5.zip
 * 双击Server.Demo.sln打开解决方案
 * 增加SDK引用
-* 修改Global.asax中的appId、appKey和appSecret
+* 修改Global.asax中的sdkProductId和appSecret
 * F5开始调试
 * 在浏览器中访问
 

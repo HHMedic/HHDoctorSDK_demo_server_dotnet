@@ -16,7 +16,9 @@ namespace HHmedic.Sdk.Server.Demo
             //注册页面路由
             RegRouters();
             //注册SDK
-            SdkProfile.Initialize(-1, "AppId", "AppSecret", SdkProfile.ProfileTypeEnum.TEST);
+            int sdkProductId = -1;
+            string appSecret = "AppSecret";
+            SdkProfile.Initialize(sdkProductId,appSecret, SdkProfile.ProfileTypeEnum.TEST);
         }
 
         protected void Session_Start(object sender, EventArgs e)
