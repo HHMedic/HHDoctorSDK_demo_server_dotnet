@@ -1,8 +1,8 @@
 # HHDoctorSDK_demo_server_dotnet
-和缓视频医生服务器SDK演示(DotNet)
+视频医生服务器SDK演示(DotNet)
 
 ## 简介
-当前项目为Asp.Net项目，用于演示和缓视频医生服务器SDK相关功能。
+当前项目为Asp.Net项目，用于演示视频医生服务器SDK相关功能。
 
 ## 如何使用
 * 克隆当前项目到本地目录
